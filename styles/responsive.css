@@ -1,53 +1,106 @@
 /* Responsive for mobile */
 @media screen and (max-width: 576px) {
-    header{
+    header {
         padding: 20px;
     }
-    .banner-text{
+
+    .banner-text {
         width: auto;
     }
-    nav, .teams-container{
+
+    nav,
+    .teams-container,
+    .features {
         flex-direction: column;
     }
-  nav ul{
-    width: 100%;
-    padding: 0;
-  }
-  .teams-img-container{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .team-text{
-    padding: 0 1.8rem;
-  }
-  .facts{
-    padding: 0 20px;
-  }
-  .facts-cards{
-    flex-direction: column;
-    gap: 1.2rem;
-  }
+
+    nav ul {
+        width: 100%;
+        padding: 0;
+    }
+
+    .teams-img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-text {
+        padding: 0 1.8rem;
+    }
+
+    .features-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ten-years-badge{
+        position: static;
+        padding: 2rem;
+    }
+
+    .facts {
+        padding: 0 20px;
+    }
+
+    .facts-cards {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .sponsors-logo-container {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1.5rem;
+    }
 }
+
 /* Responsive for tablet */
 @media screen and (min-width: 577px) and (max-width: 960px) {
-    header{
+    header {
         padding: 50px;
 
     }
-    nav, .teams-container{
+
+    nav,
+    .teams-container,
+    .features {
         flex-direction: column;
     }
-    nav ul{
+
+    nav ul {
         padding: 0;
     }
-    .banner-text{
+
+    .banner-text {
         width: auto;
     }
-    .facts{
+
+    .features-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ten-years-badge{
+        position: static;
+        width: 92%;
+        padding: 2rem;
+    }
+
+    .facts {
         padding: 0 20px;
-      }
-      .facts-cards{
+    }
+
+    .facts-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
-      }
+    }
+
+    .sponsors-logo-container {
+        margin: 0 auto;
+        width: 75%;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        padding: 1.5rem;
+        justify-content: space-around;
+    }
 }

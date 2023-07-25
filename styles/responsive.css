@@ -1,0 +1,39 @@
+/* Responsive for mobile */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    .banner-text{
+        width: auto;
+    }
+    nav, .teams-container{
+        flex-direction: column;
+    }
+  nav ul{
+    width: 100%;
+    padding: 0;
+  }
+  .teams-img-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .team-text{
+    padding: 0 1.8rem;
+  }
+}
+/* Responsive for tablet */
+@media screen and (min-width: 577px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+
+    }
+    nav, .teams-container{
+        flex-direction: column;
+    }
+    nav ul{
+        padding: 0;
+    }
+    .banner-text{
+        width: auto;
+    }
+   
+}

@@ -27,12 +27,12 @@
         padding: 0 1.8rem;
     }
 
-    .features-img img{
+    .features-img img {
         width: 100%;
         margin-left: 0;
     }
 
-    .ten-years-badge{
+    .ten-years-badge {
         position: static;
         padding: 2rem;
     }
@@ -50,6 +50,13 @@
         flex-direction: column;
         gap: 2rem;
         padding: 1.5rem;
+    }
+
+    footer{
+        width: auto;
+    }
+    footer h5{
+        padding: 35px 50px;
     }
 }
 
@@ -74,12 +81,12 @@
         width: auto;
     }
 
-    .features-img img{
+    .features-img img {
         width: 100%;
         margin-left: 0;
     }
 
-    .ten-years-badge{
+    .ten-years-badge {
         position: static;
         width: 92%;
         padding: 2rem;
@@ -102,5 +109,11 @@
         gap: 1.5rem;
         padding: 1.5rem;
         justify-content: space-around;
+    }
+    footer{
+        width: auto;
+    }
+    footer h5{
+        padding: 35px 100px;
     }
 }

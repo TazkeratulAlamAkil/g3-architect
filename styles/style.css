@@ -167,22 +167,28 @@ main {
     position: relative;
     bottom: 170px;
 }
-.features img{
+
+.features img {
     height: 85%;
     margin-left: 120px;
 }
-.ten-years-badge h1{
+
+.ten-years-badge h1 {
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 0;
 }
-.ten-years-badge h3{
+
+.ten-years-badge h3 {
     margin-top: 0;
     font-size: 25px;
     font-weight: 500;
 }
 
 /* Facts styles */
+.facts{
+    margin-top: 5rem;
+}
 .facts-cards {
     display: flex;
     justify-content: space-around;
@@ -210,4 +216,20 @@ main {
     justify-content: space-between;
     align-items: center;
     margin-top: 3rem;
+}
+
+/* footer */
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    text-align: center;
+    color: #424242;
+    font-size: 1.2rem;
+    margin-top: 5rem;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+footer h5{
+    padding: 39px 410px;
 }

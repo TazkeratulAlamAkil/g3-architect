@@ -2,6 +2,25 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.font-bold {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.font-thin {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.text-primary {
+    color: #727272;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 .btn-primary {
     border: 0;
     border-radius: 8px;
@@ -63,7 +82,8 @@ nav li {
     font-size: 1rem;
     font-weight: 400;
 }
-.banner img{
+
+.banner img {
     margin-top: 20px;
     width: 100%;
 }
@@ -72,39 +92,63 @@ nav li {
 
 /* main part styles */
 
-main{
+main {
     max-width: 1440px;
     margin: 0 auto;
 }
-.teams-container{
+
+.teams-container {
     display: flex;
     align-items: center;
     margin-top: 5rem;
 }
-.teams-img-container{
+
+.teams-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
-.team-text{
-  padding: 0 5rem;
+
+.team-text {
+    padding: 0 5rem;
 }
 
-.team-text-title{
+.team-text-title {
     font-size: 3rem;
 }
-.quick-list{
+
+.team-text-title .quick-list {
     color: #727272;
     font-weight: 500;
 }
-.of-our{
+
+.team-text-title .of-our {
     color: #131313;
     font-weight: 700;
 }
-.features{
+
+.team-text-title .features {
     color: #FF900E;
     font-weight: 700;
 }
-.team-text-description{
+
+.team-text-description {
     color: #727272;
+}
+
+/* Facts styles */
+.facts-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 2rem 4rem;
 }
